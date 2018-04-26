@@ -1,0 +1,178 @@
+/***** JUBLIEE AUSTEEN CSS STYLE SHEET *****/
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #contact, #work {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER SECTION *****/
+header {
+    background: url("../img/hero.png");
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    color: #bbc085;
+    font-family: 'Lora', serif;
+    padding: 50px 0;
+}
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0;
+    width: 1000px;
+}
+
+header h2 span{
+    color: #262a2b;
+}
+
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    padding-left: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** ABOUT SECTION STYLES AND DIMENSIONS *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    color: #262a2b;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/***** WORK SECTION STYLES AND DIMENSIONS *****/
+
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work h3 {
+    color: #262a2b;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 190px;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work p {
+    color: #262a2b;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0 35px;
+}
+
+/***** CONTACT SECTION STYLES AND DIMENSIONS *****/
+
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact a{
+    color: #c49075;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul{
+    padding-left: 115px;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#socialmedia-header{
+    font-size: 29px;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+}
